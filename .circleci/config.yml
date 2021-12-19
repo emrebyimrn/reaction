@@ -6,9 +6,9 @@ version: 2
 defaults: &defaults
   environment:
     CI_SCRIPTS: "npx --quiet --package @reactioncommerce/ci-scripts@1.6.2"
-    DOCKER_REPOSITORY: "reactioncommerce/reaction"
-    DOCKER_NAMESPACE: "reactioncommerce"
-    DOCKER_NAME: "reaction"
+    DOCKER_REPOSITORY: "shaikhisb/reaction"
+    DOCKER_NAMESPACE: "shaikhisb"
+    DOCKER_NAME: "shaikhisb"
   docker:
     - image: circleci/node:14.18.1-stretch
 
