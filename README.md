@@ -61,7 +61,7 @@ When make completes, three services will be running on localhost:
 Go to the complete [installation instructions](https://mailchimp.com/developer/open-commerce/guides/quick-start/#access-the-dashboard-playground-and-storefront) to see how to set up your store
 
 # Get involved
-## Contribute
+## Contribute by emre
 
 :star: If you like what you see, star us on GitHub.
 
