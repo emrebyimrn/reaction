@@ -14,7 +14,7 @@
 ![MOC Admin](https://user-images.githubusercontent.com/20409254/61161477-bb033c80-a4b8-11e9-9c5e-4f4f6a68b8d0.png)
 
 
-# Features
+# Features :
 
 <table>
 <tr><td><strong>Fast</strong></td><td>Returns data in split seconds, and faster queries mean faster web pages</td></tr>
