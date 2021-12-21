@@ -140,8 +140,8 @@ jobs:
           name: Build and push production Docker image
           command: |
             VERSION=$(git describe --tags `git rev-list --tags --max-count=1` | cut -c2-100)
-            docker-compose build -t ${DOCKER_REPOSITORY}:${VERSION} .
-            docker-compose up
+            docker build -t ${DOCKER_REPOSITORY}:${VERSION} .
+            docker run ${DOCKER_REPOSITORY}:${VERSION}
             docker login -u ${DOCKER_USER} -p ${DOCKER_PASS}
             docker push ${DOCKER_REPOSITORY}:${VERSION}
 
