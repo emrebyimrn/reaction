@@ -33,7 +33,7 @@
 </table>
 
 
-# Getting started
+# Getting started :
 
 For complete documentation go to [Open Commerce Quickstart](https://mailchimp.com/developer/open-commerce/guides/quick-start/) for all supported operating systems.
 
